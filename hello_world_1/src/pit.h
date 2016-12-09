@@ -8,8 +8,9 @@
 #ifndef PIT_H_
 #define PIT_H_
 #include <stdint.h>
+#include "xparameters.h"
 
-#define XPAR_PIT_0_BASEADDR 0x7bc00000	//base address of the PIT timer
+//#define XPAR_PIT_0_BASEADDR 0x7bc00000	//base address of the PIT timer
 #define PIT_INITIAL_DELAY 999999		//default initial delay of the PIT timer
 
 //initializes the PIT with the passed in delay value and the control register zeroed out

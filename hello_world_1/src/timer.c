@@ -27,7 +27,7 @@
 #define MAX_ALIENS_FIRE_COUNT 300 // maximum time between alien bullets
 #define ALIEN_EXPLOSION_COUNT 15 // time until an alien explosion sprite gets erased
 #define TANK_DEATH_COUNT 150
-#define SWITCH_POLL_COUNT 5
+#define SWITCH_POLL_COUNT 3
 
 // UFO appears about every 25-30 seconds
 #define UFO_APPEAR_COUNT_MINIMUM 1500
